@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 1px 2px 3px 4px ;
+}
+body{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Lato';
+    letter-spacing: 0.7;
+    line-height: 150%;
+}
+
+#title{
+    text-align: center;
+    color: rgb(192, 37, 109);
+    padding-top: 2%;
+}
+#description{
+    padding-top: 2%;
+
+}
+
+#survey-form{
+    
+    float: left;
+    padding-left: 10%;
+}
+
+#name , #email , #number ,#dropdown{
+    margin-left: 2%;
+    width: 250px;
+    height: 25px;
+}
+
+#text-area{
+    width: 90%;
+    height: 250px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}

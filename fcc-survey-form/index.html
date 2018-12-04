@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+   
+
+</head>
+
+<body >
+
+
+    <header>
+        <div class="wrapper">
+    <div id="title">
+        <h2>Favourite Movie Survey</h2>
+    <p id="description">This is survey form to identify the Favourite genre and Favourite movies.</p>
+    </div>
+</header>
+
+
+    <form id="survey-form" class="container">
+
+
+      <p id="name-label">Name : </p> <input id="name" type="text" placeholder="Tell us Your Name...." required> 
+      <br>
+        <p id="email-label">E-mail : </p> <input id="email" type="email" placeholder='ex : vicky@gmail.com' required>
+<br>
+       <p id="number-label">Age : </p> <input id="number" type="number" type="range" min="10" max="60" required>
+<br>
+
+    <p id="genre">What kind of movies do you like most ?</p>
+<select id="dropdown">
+
+    <option value="">Action/Adventure</option>
+<option value="">Fantasy/Adventure</option>
+<option value="">Mystery/Thriller</option>
+<option value="">Sci-fi/Suspense</option>
+<option value="">Romance/Non-Fiction</option>
+
+</select>
+<br>
+
+<p>Which movie will you prefer watching from the following ?</p>
+<div>
+<input type="radio" name='movies'>Fight Club<br>
+<input type="radio" name='movies'> Shawshank Redemption
+<br>
+<input type="radio" name='movies'>Batman The Dark Knight
+<br>
+<input type="radio" name='movies'>The Wolf of Wall Street
+
+</div>
+
+<br>
+<p id='console'>Where do you watch movies?</p><label for="b">
+<input type="checkbox" name="console" id="b">Netflix</label>
+<label for="b">
+<input type="checkbox" name="console" id="b">Amazon Prime</label>
+<label for="b">
+<input type="checkbox" name="console" id="b"><label for="b">You Tube</label>
+<label for="b"><br>
+<input type="checkbox" name="console" id="b"><label for="b">Other websites</label>
+<label for="b"><br>
+<input type="checkbox" name="console" id="b">DVD/CD</label>
+
+<br>
+<br>
+<div class="Comments">
+<p>Comments :</p>
+<textarea id="text-area" rows="3" cols="1200" placeholder="Tell us about your Favourite movie and why">
+    </textarea>
+
+<br>
+<button id='submit' type="submit">Submit</button>
+</div>
+    </form>
+    <br>
+    <br>
+<script src="ec.js"></script>
+</body>
+</html>
