@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-size: 20px;
+}
+li{
+list-style: none;
+padding: 20px;;
+}
+li:hover{
+    color: rgb(202, 76, 76);
+    border-bottom: 2px solid rgb(89, 185, 185);
+}
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+nav ul{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: flex-end;
+}
+#welcome-section{
+    grid-column: 1/4;
+    margin-top: 60px;
+    height: 300px;
+      background-color: rgb(202, 76, 76);
+
+}
+#welcome-section div p,#welcome-section div h2{
+      text-align: center;
+      color: rgb(255, 255, 255);
+}
+#welcome-section div p{
+    font-size: 1.3em;
+}
+#welcome-section div{
+     padding-top: 140px;
+}
+body{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+#projects{
+    grid-column: 1/4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.meet{
+    grid-column: 1/-1;
+    margin-top: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.meet p{
+    padding: 20px;
+}
+ion-icon{
+    width: 150px;
+    height: 50px;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    grid-column: 1/-1;
+    background-color: rgb(247, 238, 226));
+
+}
+@media(max-width:768px){
+    body{
+        font-size: 18px;
+    }
+}
+@media(max-width:400px) {
+    body {
+        font-size: 16px;
+    }
+}

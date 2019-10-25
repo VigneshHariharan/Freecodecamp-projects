@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-size: 20px;
+       letter-spacing: .07em;
+
+    font-family: 'Lato',
+    sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+#title > img{
+    display: block;   
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 2%;
+     width: 200px;
+    height: auto;    
+}
+#title{
+    text-align: center;
+  font-family: 'Lato',sans-serif;
+  color: rgba(37, 10, 31, 0.836);
+}
+#title > p{
+  padding-top: 1%;
+}
+span{
+    color: rgb(190, 114, 209);
+    font-size: 1.1em;
+    cursor: pointer;
+}
+#image{
+      width: 100%;
+      height: auto;
+      display: block;
+       margin-left: auto;
+       margin-right: auto;
+    margin-top: 20px;       
+}
+
+#img-caption{
+    padding-top: 2.5%;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    background-color: rgba(37, 10, 31, 0.836);
+
+}
+
+#tribute-info , #tribute-link {
+ 
+    text-align: start;
+    overflow: auto;
+    line-height: 150%;
+    margin-right: 5%;   
+    
+}
+section  #tribute-info
+{
+padding-left: 5%;
+}
+#color{
+    background-color: rgba(37, 10, 31, 0.836);
+padding-top: 3%;    
+color: beige;
+}
+li{
+    margin-bottom: 2%;
+}
+h2{
+    font-weight: lighter;
+    color: violet;
+}
+
+
+#link{   
+ 
+        text-align: center;
+    margin-top: 20px;  
+    padding-bottom: 2%;
+        border-bottom: 2px solid rgba(37, 10, 31, 0.836);
+}
+ #author{
+        text-align: center;
+        margin-top: 20px;
+    padding-bottom: 5%;
+    padding-right: 6%;
+ }
+
+   @media(max-width:500px){
+
+        body{
+            font-size: 18px;
+        }
+   }
